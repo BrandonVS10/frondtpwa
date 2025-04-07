@@ -29,7 +29,7 @@ const Register = () => {
     }
   
     try {
-      const response = await fetch('https://backend-be7l.onrender.com/auth/register', {
+      const response = await fetch('https://back00pwa.onrender.com/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

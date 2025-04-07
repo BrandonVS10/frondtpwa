@@ -124,7 +124,7 @@ self.addEventListener('sync', event => {
             }
 
             let postPromises = usuarios.map(user =>
-              fetch('https://backend-be7l.onrender.com/auth/register', {
+              fetch('https://back00pwa.onrender.com/auth/register', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(user)
@@ -184,7 +184,7 @@ self.addEventListener("push", (event) => {
 
   let options={
       body:event.data.text(),
-       body: "Hola, cómo estás?",
+     
       image: "./icons/sao_1.png",
   }
   
